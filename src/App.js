@@ -1,11 +1,12 @@
-import logo from './logo.svg';
 import './App.css';
-import AccordionComponent from './IntermidiateTasks/AccordionComponent';
+import ShoppingCart from './setStatesTasks/ShoppingCart';
+import Stopwatch from './setStatesTasks/Stopwatch';
+import ThemeToggle from './setStatesTasks/ThemeToggle';
 
 function App() {
   return (
     <div className="App">
-      <AccordionComponent/>
+      <ShoppingCart/>
     </div>
   );
 }
